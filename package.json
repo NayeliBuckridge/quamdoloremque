@@ -1,0 +1,49 @@
+{
+  "name": "quamdoloremque",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "build-watch": "./bin/build-watch.mjs"
+  },
+  "files": [
+    "*.d.ts",
+    "*.js",
+    "*.json",
+    "./bin",
+    "./build_watch_cli"
+  ],
+  "types": "./index.d.ts",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@ctx-core/child_process": "^7.4.160",
+    "@ctx-core/env": "^17.6.37",
+    "@ctx-core/monorepo": "^21.4.72",
+    "ctx-core": "^6.5.10",
+    "cheap-watch": "^1.0.4",
+    "fdir": "^6.1.1",
+    "js-yaml": "^4.1.0",
+    "minimatch": "^9.0.3",
+    "ora": "8.0.1",
+    "rusha": "^0.8.14"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.29",
+    "@types/rusha": "^0.8.3",
+    "c8": "^9.1.0",
+    "check-dts": "^0.7.2",
+    "eslint": "^8.57.0",
+    "tsx": "^4.7.1",
+    "typescript": "next",
+    "uvu": "^0.5.6"
+  },
+  "noUpdate": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NayeliBuckridge/quamdoloremque.git"
+  },
+  "sideEffects": false,
+  "author": "AshaProhaska"
+}
